@@ -10,8 +10,17 @@ html {
   font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 }
 
+.clear-button {
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+}
+
 *, *:before, *:after {
-  box-sizing: inherit; 
+  box-sizing: inherit;
 }
 
 svg {
@@ -65,7 +74,7 @@ h2 {
 }
 
 .plates input:checked + label:before {
-  content: '🌮';
+  content: '🍤';
 }
 
 .add-items {
